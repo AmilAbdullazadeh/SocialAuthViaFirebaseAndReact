@@ -43,7 +43,7 @@ class App extends Component {
                     Signed out!
                   </button>
                   <h1> Welcome {firebase.auth().currentUser.displayName} !</h1>
-                  <img src={firebase.auth().currentUser.photoURL} alt=""/>
+                  <img src={firebase.auth().currentUser.photoURL} alt="Auth Picture"/>
                 </span>
               ) : (
                 <StyledFirebaseAuth
